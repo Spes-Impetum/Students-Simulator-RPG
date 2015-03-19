@@ -19,8 +19,9 @@ public:
 
   
 protected:
-  Player& operator=(Player const& c) = delete;
-  Player(Player const& c) = delete;
+  Player& operator=(Player const& p) = delete;
+  Player(Player const& p) = delete;
+  
   
 };
 
