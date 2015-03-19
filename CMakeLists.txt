@@ -14,7 +14,7 @@ file(
   
   )
 
-
+add_definitions( -Wall -std=c++11 -g )
 include_directories(
   
   include/
